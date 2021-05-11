@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Owin.Hosting;
 
 namespace qwinlike_webapi
 {
@@ -6,7 +7,11 @@ namespace qwinlike_webapi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using (WebApp.Start<Startup>("http://localhost:9000"))
+            {
+                Console.WriteLine("Нажми интер, а?");
+                Console.ReadLine();
+            }
         }
     }
 }

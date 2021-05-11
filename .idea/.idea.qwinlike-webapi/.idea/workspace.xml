@@ -4,8 +4,13 @@
     <projectFile>qwinlike-webapi/qwinlike-webapi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f26488ac-752d-4931-b276-16825ad99cec" name="Default Changelist" comment="Инициализирующий">
-      <change afterPath="$PROJECT_DIR$/qwinlike-webapi/README.md" afterDir="false" />
+    <list default="true" id="f26488ac-752d-4931-b276-16825ad99cec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/qwinlike-webapi/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qwinlike-webapi/LoggerModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qwinlike-webapi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.qwinlike-webapi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qwinlike-webapi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwinlike-webapi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qwinlike-webapi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwinlike-webapi/qwinlike-webapi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/qwinlike-webapi/qwinlike-webapi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,14 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/qwinlike-webapi/README.md" />
+      <option value="$PROJECT_DIR$/.gitignore" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/qwinlike-webapi.csproj" />
+      <option value="$PROJECT_DIR$/Startup.cs" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/Program.cs" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/Startup.cs" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/LoggerModule.cs" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/Controllers/HomeControler.cs" />
+      <option value="$PROJECT_DIR$/qwinlike-webapi/Controllers/HomeController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sJe7E9Biy6TCtkHERGTr3vvSLl" />
@@ -34,6 +47,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -64,7 +79,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620594950056</updated>
-      <workItem from="1620594956546" duration="238000" />
+      <workItem from="1620594956546" duration="3260000" />
+      <workItem from="1620731010418" duration="363000" />
+      <workItem from="1620731843491" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="Инициализирующий">
       <created>1620595047242</created>
@@ -73,28 +90,51 @@
       <option name="project" value="LOCAL" />
       <updated>1620595047242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил файл-описание">
+      <created>1620595222910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620595222910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Переместил файл описание">
+      <created>1620595411213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620595411213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Инициализирующий" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инициализирующий" />
+    <MESSAGE value="Добавил файл-описание" />
+    <MESSAGE value="Переместил файл описание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переместил файл описание" />
   </component>
 </project>
